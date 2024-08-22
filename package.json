@@ -1,0 +1,19 @@
+{
+  "name": "jira-github-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "author": "NipunEranda",
+  "license": "ISC",
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.4.0",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  }
+}

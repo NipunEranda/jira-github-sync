@@ -1,2 +1,2 @@
-# jira-github-sync
-Script to migrate jira issues to github projects
+# Command to run the script
+    npm start target_jira_project_name target_github_repo_name
